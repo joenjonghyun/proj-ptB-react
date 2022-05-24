@@ -19,7 +19,7 @@ export function Register() {
             </div>
 
             <div>
-              <h5> 비밀번호 확인 </h5>
+              <h5> 비밀번호확인 </h5>
               <input placeholder="비밀번호 확인" type='password' maxLength='15' name='signup_pswCheck'/>
             </div>
           </div>

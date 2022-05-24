@@ -13,6 +13,5 @@ export function Header() {
             </nav>
             <hr/>
             </div>
-
     )
 }

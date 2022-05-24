@@ -2,7 +2,9 @@ export function Layout({ children }){
     return (
       <>
         <div >
-          <main >{children}</main>
+            <main >
+                {children}
+            </main>
         </div>
       </>
     );

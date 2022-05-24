@@ -4,6 +4,6 @@ const MyApp = ({ Component }) => {
     <Header/>
     <Component/>
     </>
-  )
+  ) 
 }
 export default MyApp

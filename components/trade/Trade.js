@@ -11,7 +11,6 @@ export function Trade() {
             <div>
               <input placeholder="아이디" type='text' maxLength='20' name='signup_id'/>
             </div>
-
             <div>
               <h5> 비밀번호 </h5>
               <input placeholder="비밀번호" type='password' maxLength='15' name='signup_password'/>

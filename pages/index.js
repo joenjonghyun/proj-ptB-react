@@ -7,5 +7,5 @@ return (
     <Layout>
     <Home/>
     </Layout>        
-    )
+    ) 
 }
