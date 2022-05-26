@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "/styles/trade.module.css"
 
-export function Trade(){ 
+export function Ttrade(){ 
 return (
   
   <table className={styles.tab}>
@@ -11,12 +11,13 @@ return (
         <option >도지코인</option>
         <option >코인미정</option>
     </select>
+    <checkbox>사용자 정의</checkbox>
+
   <tr className={styles.tr}>
-    
-  </tr>
-  <tr className={styles.tr}>
-<td className={styles.text}><br/>로그인이 필요한 서비스 입니다. <br/><br/><button className={styles.buttons}>로그인하러가기</button>
-<br/><br/></td>
+  <div>
+  <button className={styles.buttons}>자동매매시작</button>
+            </div>
+ 
   </tr>
 </table>
 )
