@@ -1,11 +1,9 @@
-export function Layout({ children }){
-    return (
-      <>
-        <div >
-            <main >
-                {children}
-            </main>
-        </div>
-      </>
-    );
-  };
+import React from 'react'
+import styles from '/styles/Layout.module.css'
+export default function Layout({children}) {
+  return (
+    <div className={styles.container}>
+      <main>{children }</main>
+    </div>
+  )
+}

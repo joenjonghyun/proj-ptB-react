@@ -1,19 +1,18 @@
-//홈화면임
-export function Header() {
+import React from 'react';
+import Head from 'next/head'
+
+
+export default function Header() {
     return (
-        <div>
-        <hr/>
-            <nav role="navigation">
-                <li><a>USER</a>
-                    <ul>
-                        <li ><a href='/user/login' aria-label="submenu">로그인</a></li>
-                        <li ><a href='/user/register' aria-label="submenu">회원가입</a></li>
-                        <li ><a href='/trade/trade' aria-label="submenu">자동거래</a></li>
-                        <li ><a href='/trade/Ttrade' aria-label="submenu">자동거래-로그인후</a></li>
-                    </ul>
-                </li>
-            </nav>
-            <hr/>
-            </div>
+        <Head>
+            <meta charSet="utf-8"/>
+            <meta
+                name="viewport"
+                content="width=device-width, user-scalable=no,
+                initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+            <meta httpEquiv="X-UA-Compatible" content="ie=edge"/>
+            <title>MK NEXT TEMPLATE1</title>
+            
+        </Head>
     )
 }
